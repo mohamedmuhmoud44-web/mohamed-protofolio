@@ -144,6 +144,27 @@ section h2{
     background:#263449;
 }
 
+/* Contact */
+.contact-buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.contact-buttons a{
+    padding:10px 18px;
+    background:#1e293b;
+    border-radius:6px;
+    text-decoration:none;
+    color:#e2e8f0;
+    transition:0.3s;
+}
+
+.contact-buttons a:hover{
+    background:#38bdf8;
+    color:#0f172a;
+}
+
 footer{
     text-align:center;
     padding:30px;
@@ -169,6 +190,7 @@ footer{
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </div>
 </nav>
 
@@ -179,11 +201,12 @@ footer{
             AI & Data Analysis student passionate about transforming raw data
             into meaningful insights and building intelligent solutions.
         </p>
+        <a href="mailto:mohamedmuhmoud44@gmail.com" class="btn">Contact Me</a>
     </div>
 
     <div class="profile-wrapper">
-        <img src="WhatsApp%20Image%202026-02-22%20at%2020.05.02.jpeg" 
-             alt="Mohamed Omar" 
+        <img src="profile.jpeg"
+             alt="Mohamed Omar"
              class="profile">
     </div>
 </section>
@@ -212,24 +235,25 @@ footer{
 
         <div class="card">
             <h3>Sales Pipeline Dashboard</h3>
-            <p>
-                Interactive Excel dashboard analyzing sales KPIs and revenue trends.
-            </p>
-            <a href="sales-pipeline.xlsx.xlsx" target="_blank" class="btn">
-                View Project
-            </a>
+            <p>Interactive Excel dashboard analyzing sales KPIs and revenue trends.</p>
+            <a href="sales-pipeline.xlsx.xlsx" target="_blank" class="btn">View Project</a>
         </div>
 
         <div class="card">
             <h3>Coffee Shop Sales Analysis</h3>
-            <p>
-                Sales analysis project identifying peak hours and best-selling products.
-            </p>
-            <a href="coffee-shop-sales.xlsx.xlsx" target="_blank" class="btn">
-                View Project
-            </a>
+            <p>Sales analysis identifying peak hours and best-selling products.</p>
+            <a href="coffee-shop-sales.xlsx.xlsx" target="_blank" class="btn">View Project</a>
         </div>
 
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Get In Touch</h2>
+    <div class="contact-buttons">
+        <a href="mailto:mohamedmuhmoud44@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/mohamed-omar-64873230b/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/mohamedmuhmoud44-web" target="_blank">GitHub</a>
     </div>
 </section>
 
